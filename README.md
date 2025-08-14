@@ -1,4 +1,5 @@
-#DreamDiffusion-BCS-Summer Project
-I have implemented a paper called DreamDiffusion which basically tries to regenarate images from recorded EEG signals during a paradigm.
+I have implemented a paper called DreamDiffusion which basically tries to regenarate images from EEG signals which is recorded from a PsychoPy paradigm by the display of those images from the ImageNet dataset.
+
 Paper Link- https://arxiv.org/pdf/2306.16934
+
 DreamDiffusion utilizes pre-trained text-to-image models and applies temporal masked signal modeling to pre-train the EEG encoder, enabling the extraction of effective and robust EEG representations. Moreover, it incorporates the CLIP image encoder as an additional supervisory signal, enhancing the alignment of EEG, text, and image embeddings even with a limited number of EEG–image pairs. This approach effectively addresses key challenges in EEG-based image generation, including noise, limited signal content, and individual variability, ultimately achieving decent performance. We tried to fine tune our model as much as we could to obtain better results.
